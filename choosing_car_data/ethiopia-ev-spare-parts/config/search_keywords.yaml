@@ -1,0 +1,17 @@
+# Multilingual Search Keyword Matrix (English & Amharic)
+keywords:
+  battery:
+    en: ["EV battery Ethiopia", "BYD blade battery Addis", "electric car battery replacement", "Lithium battery price"]
+    am: ["የመኪና ባትሪ", "የኤሌክትሪክ መኪና ባትሪ", "የቢዋይዲ ባትሪ", "ቻርጀር"]
+
+  inverter_charging:
+    en: ["OBC charger EV", "EV on board charger repair", "GB/T charger adapter Addis", "EV inverter"]
+    am: ["የመኪና ቻርጀር", "ኢንቨርተር", "መኪና መሙያ", "አዳፕተር"]
+
+  suspension_brakes:
+    en: ["BYD shock absorber", "Benben shock absorber", "EV brake pads Ethiopia", "Toyota bZ4X suspension"]
+    am: ["የፊት አማርቲዛተር", "የፍሬን ፓድ", "የኋላ አማርቲዛተር"]
+
+  air_conditioning:
+    en: ["electric AC compressor", "BYD AC compressor", "EV coolant pump"]
+    am: ["የመኪና ኮምፕረሰር", "የኤሲ ኮምፕረሰር"]

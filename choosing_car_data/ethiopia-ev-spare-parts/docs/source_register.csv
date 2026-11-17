@@ -1,0 +1,6 @@
+source_id,name,type,coverage,reliability_tier,data_collection_method
+SRC-01,MOENCO Ethiopia,Official Distributor,"BYD, Toyota",Tier 1,Direct Survey
+SRC-02,Ministry of Transport and Logistics (MoTL),Government Ministry,National EV Policy & Directives,Tier 1,Official Publications
+SRC-03,Ethiopian Customs Commission (ECC),Government Commission,HS Code Import Manifests,Tier 1,Trade Records
+SRC-04,Jiji Ethiopia,Online Marketplace,Classified Listings,Tier 3,Automated Web Scraping
+SRC-05,Telegram Auto Channels Network,Social Messaging,Peer-to-peer & Broker Posts,Tier 3,Apify MTProto Scraper

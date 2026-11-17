@@ -1,0 +1,5 @@
+part_id,part_name,compatible_vehicle_id,compatible_model,platform_shared_with,is_direct_fit
+P-01,Front Suspension Strut,V-01,BYD Seagull,BYD Dolphin Mini,True
+P-02,On-Board Charger (OBC),V-01,BYD Seagull,BYD Yuan Up (3.3kW spec),False
+P-04,Regenerative Friction Brake Pads,V-04,Toyota bZ4X,Subaru Solterra,True
+P-05,Charging Port Assembly (GB/T),"V-01, V-02, V-03","BYD Seagull, BYD Yuan Up, Changan Benben",Universal GB/T Standard,True
