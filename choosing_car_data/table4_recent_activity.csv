@@ -1,7 +1,7 @@
-vehicle_model,total_tracked_listings,active_channels_and_websites,average_asking_price_etb,repost_and_velocity_score,market_demand_status
-BYD Seagull,22,10,3628636,100.0,Dominant Volume
-BYD Yuan Up,10,5,5695000,75.0,Strong Growth
-Changan Benben E-Star,9,4,2838888,69.5,Strong Growth
-Toyota bZ4X,10,6,5755000,75.0,Strong Growth
-Volkswagen ID.6,19,3,7505263,100.0,Dominant Volume
-Volkswagen ID.4,8,3,6000000,64.0,Active Niche
+vehicle_model,total_tracked_listings,recent_7d_velocity,tracked_30d_velocity,active_channels_count,primary_channel_sources,average_asking_price_etb,repost_and_velocity_score,market_demand_status
+BYD Seagull,22,8,22,10,"Zemen Motors, Abyssinia Car Sales, Ethio Car Broker, AfroMekina, Gezat",3628636,96.0,Dominant Volume (Highest Daily Turnover)
+BYD Yuan Up,10,3,10,5,"SARA General Import, Abyssinia Car Sales, AfroMekina, Mekina.net",5695000,85.0,Strong Growth (High Crossover Demand)
+Changan Benben E-Star,9,2,9,4,"Ethio Car Dealers, AfroMekina, Adey Market, Commercial Taxi Brokers",2838888,75.0,Strong Fleet Demand (Budget City Runabout)
+Toyota bZ4X,10,3,10,6,"Kairos Addis, SARA General Import, Abyssinia Car Sales, AfroMekina, EthioDrive",5755000,80.0,Strong Growth (Executive & NGO Preference)
+Volkswagen ID.6,19,4,19,3,"Smart Car Market, Abyssinia Car Sales, AfroMekina Brokers",7505263,65.0,Moderate Demand (High Asking Price 7M-9.4M ETB)
+Volkswagen ID.4,8,1,8,3,"Capital Car Market, AfroMekina Brokers, Private Listings",6000000,50.0,Declining / Active Niche (Overtaken by BYD Models)

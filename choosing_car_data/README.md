@@ -2,6 +2,8 @@
 
 This directory contains the cleaned datasets, scraper scripts, and ranking methodology used to evaluate and select electric vehicle models in Ethiopia.
 
+For full auditability, government decree links, and dry port logistics flows, see [DATA_PROVENANCE_AND_AUDIT.md](./DATA_PROVENANCE_AND_AUDIT.md).
+
 ---
 
 ## The 7 Criteria Evaluation Model
@@ -11,9 +13,9 @@ Each model is evaluated across **7 weighted criteria**, producing an aggregate n
 $$\text{Final Score} = 0.20(I) + 0.15(L) + 0.15(D) + 0.15(R) + 0.10(P) + 0.15(A) + 0.10(M)$$
 
 Where:
-* **$I$ (Import Evidence, Weight: 20%)**: Customs duty exemption application (0% CKD, 5% SKD, 15% CBU under MoFED Directive 877/2022), MoTL green transport transition priority, and Port of Djibouti manifests.
+* **$I$ (Import Evidence, Weight: 20%)**: Customs duty exemption application (0% CKD, 5% SKD, 15% CBU under MoFED Directive 877/2022), MoTL green transport transition priority, Modjo Dry Port / Port of Djibouti (DMP/DCT) manifest records.
 * **$L$ (Unique Listings, Weight: 15%)**: Frequency of verified unique vehicle ads across classifieds and Telegram channels.
-* **$D$ (Dealer Availability, Weight: 15%)**: Floor stock readiness (*In-Stock / Ready* vs. *Pre-order*) across Addis Ababa dealerships (MOENCO, Kairos Addis, Zemen, Sara Import, EthioDrive dealers).
+* **$D$ (Dealer Availability, Weight: 15%)**: Physical showroom infrastructure, active dealer accessibility, and direct phone/walk-in availability across Addis Ababa dealerships (MOENCO, Kairos Addis, Zemen, Sara Import, BKME). *Note: Per audit standards, dealer stock counters have a zero value policy to prevent data fabrication given the lack of automated digital inventory in Ethiopia.*
 * **$R$ (Recent Activity, Weight: 15%)**: Listing velocity over 7-day and 30-day windows and active channel promotion.
 * **$P$ (Price Competitiveness, Weight: 10%)**: Retail price in ETB relative to battery capacity (ETB per kWh) and affordability index.
 * **$A$ (After-Sales Support, Weight: 15%)**: Authorized service centers, availability of diagnostic computers (BYD VDS, Toyota Techstream, cloned ODIS), and mechanic familiarity.
@@ -21,7 +23,7 @@ Where:
 
 ---
 
-## Current Master Vehicle Ranking Summary
+## Master Vehicle Ranking Summary
 
 | Rank | Model | Final Score | Import (`I`) | Listings (`L`) | Dealer (`D`) | Recency (`R`) | Price (`P`) | After-Sales (`A`) | Market (`M`) | Primary Positioning |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
@@ -38,14 +40,15 @@ Where:
 
 | File | Primary Contents |
 | :--- | :--- |
-| **`master_vehicle_ranking.csv`** | Consolidated matrix combining scores, formulas, and cross-references. |
-| **`table1_import_evidence.csv`** | Official customs duty classifications, port manifests, and government directive URLs. |
-| **`table2_unique_listings.csv`** | Granular listing feed (78+ records) with prices, conditions, dates, and seller contacts. |
-| **`table3_dealer_availability.csv`** | Directory of showrooms in Addis Ababa, floor unit counts, and phone contacts. |
-| **`table4_recent_activity.csv`** | 30-day listing velocities, active promotional channels, and momentum status. |
-| **`table5_price_competitiveness.csv`** | Average asking price (ETB), price spreads, battery kWh, and efficiency ratios. |
-| **`table6_after_sales_support.csv`** | Authorized workshops, battery diagnostic tool readiness, and warranty terms. |
-| **`table7_market_presence.csv`** | City visibility index, taxi fleet adoption, and secondary cash liquidity. |
+| **`master_vehicle_ranking.csv`** | Consolidated matrix combining scores, formulas, dry ports, and cross-references. |
+| **`table1_import_evidence.csv`** | Modjo Dry Port, Port of Djibouti DMP/DCT terminals, import shares, and MoFED/MoTL decrees. |
+| **`table2_unique_listings.csv`** | Granular listing feed (78+ records) with direct post URLs, prices, and seller contacts. |
+| **`table3_dealer_availability.csv`** | Directory of showrooms in Addis Ababa, operational status, website status, phone contacts, and zero-inventory policy. |
+| **`table4_recent_activity.csv`** | 7-day and 30-day listing velocities, active promotional channels, and momentum status. |
+| **`table5_price_competitiveness.csv`** | Average asking price (ETB), price spreads, battery kWh, chemistry, and efficiency ratios. |
+| **`table6_after_sales_support.csv`** | Authorized workshops, diagnostic hardware/software versions, and warranty terms. |
+| **`table7_market_presence.csv`** | Active road share, city visibility index, taxi fleet adoption, and secondary cash liquidity. |
+| **`DATA_PROVENANCE_AND_AUDIT.md`** | Comprehensive audit ledger documenting methodology, dry ports, and regulatory citations. |
 
 ---
 

@@ -1,7 +1,7 @@
-vehicle_model,avg_asking_price_etb,price_spread_etb,battery_kwh,etb_per_kwh,affordability_score,segment
-Changan Benben E-Star,2750000,2.05M - 3.45M ETB,32.2,85400,98.0,Entry City Commuter
-BYD Seagull,3820000,2.5M - 4.45M ETB,38.8,98450,86.0,Daily City Hatchback
-BYD Yuan Up,5680000,5.5M - 6.2M ETB,45.1,125900,68.0,Compact Family Crossover
-Toyota bZ4X,6350000,3.8M - 7.4M ETB,66.7,95200,62.0,Executive Mid-Size SUV
-Volkswagen ID.4,5850000,5.5M - 6.4M ETB,84.8,68980,65.0,Mid-Size Crossover
-Volkswagen ID.6,7650000,6.3M - 9.4M ETB,84.8,90210,48.0,Large 7-Seater Family SUV
+vehicle_model,market_segment,battery_kwh,battery_chemistry_spec,min_asking_price_etb,max_asking_price_etb,avg_asking_price_etb,etb_per_kwh,affordability_score,price_spread_etb,price_verification_ref
+Changan Benben E-Star,Entry City Commuter,32.2,CATL Lithium Iron Phosphate (LFP),2050000,3450000,2838888,88164,98.0,2.05M - 3.45M ETB,Verified across 9 listings in table2_unique_listings.csv
+BYD Seagull,Daily City Hatchback,38.8,BYD FinDreams Blade Battery (LFP),2500000,4450000,3628636,93521,86.0,2.50M - 4.45M ETB,Verified across 22 listings in table2_unique_listings.csv
+BYD Yuan Up,Compact Family Crossover,45.1,BYD FinDreams Blade Battery (LFP),5500000,6200000,5695000,126274,68.0,5.50M - 6.20M ETB,Verified across 10 listings in table2_unique_listings.csv
+Toyota bZ4X,Executive Mid-Size SUV,66.7,CATL / Prime Planet Energy Solutions (NCM),3800000,7400000,5755000,86281,62.0,3.80M - 7.40M ETB,Verified across 10 listings in table2_unique_listings.csv
+Volkswagen ID.4,Mid-Size Crossover,84.8,CATL Ternary Lithium (NCM 811),5500000,6400000,6000000,70754,65.0,5.50M - 6.40M ETB,Verified across 8 listings in table2_unique_listings.csv
+Volkswagen ID.6,Large 7-Seater Family SUV,84.8,CATL Ternary Lithium (NCM 811),6300000,9400000,7505263,88505,48.0,6.30M - 9.40M ETB,Verified across 19 listings in table2_unique_listings.csv
