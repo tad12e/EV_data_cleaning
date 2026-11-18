@@ -1,4 +1,1 @@
-supplier_id,company_name,address_addis,contact_phone,brands_carried,parts_inventory_types,warranty_policy
-SUPP-01,MOENCO Ethiopia Spare Parts Division,"Bole Sub-City, Road to Airport",+251 11 661 3688,"BYD, Toyota","Blade battery modules, Inverters, Suspension, OEM Body panels",12 Months Official Warranty
-SUPP-02,Sara General Import PLC (Auto Division),Mexico Square / Kera,+251 94 121 1111,"BYD, Changan, Geely","OBC chargers, DC-DC converters, suspension bushings",6 Months Replacement Warranty
-SUPP-03,Kera EV Electronics & Battery Hub,"Kirkos Sub-City, Kera",+251 91 198 7654,Multi-brand Chinese EVs,"BMS boards, OBD diagnostic cables, cell balancing equipment",3 Months Warranty
+raw_record_id,supplier_name,supplier_type,supplier_location,supplier_url,vehicle_model,part_category,component,oem_part_number,advertised_price,currency,stock_status,availability_claim,orderable_status,country_of_origin,import_claim,quote_date,observation_date,evidence_url,original_text,verification_status

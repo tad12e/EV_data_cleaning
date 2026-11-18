@@ -1,4 +1,1 @@
-repair_id,garage_name,location,ev_model,reported_fault_component,repair_action,downtime_days,parts_sourced_from
-REP-201,Addis EV Green Tech Workshop,"Saris, Addis Ababa",Changan Benben E-Star,On-Board Charger (OBC),Replaced blown MOSFET and capacitors in OBC power board,4,Local importer (Kera)
-REP-202,MOENCO Central Workshop,"Bole, Addis Ababa",BYD Seagull,Front Suspension Strut,Replaced both front struts and stabilizer links,1,Official MOENCO Warehouse
-REP-203,Precision Auto Tech,Bole Bulbula,Volkswagen ID.6,12V Auxiliary DC-DC Converter,Software recalibration and replacement of DC converter,18,Imported via air freight from Dubai
+raw_record_id,workshop_name_or_anonymous_id,workshop_location,vehicle_model,model_year_if_known,part_category,specific_component,repair_type,replacement_or_repair,quantity,observation_period,repair_date,technician_statement,evidence_url,collection_date,verification_status

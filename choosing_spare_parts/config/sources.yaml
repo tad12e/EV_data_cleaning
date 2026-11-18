@@ -1,0 +1,56 @@
+# Sources Configuration & Ingestion Rules
+# Links the 61 Audited Sources in docs/source_register.csv to Collector Execution Profiles
+version: "1.0"
+
+collection_profiles:
+  telegram_channels:
+    rate_limit_seconds: 2.0
+    max_messages_per_batch: 50
+    active_sources:
+      - "SRC-034" # @zemenmotors
+      - "SRC-035" # @Abyssiniancarsales
+      - "SRC-036" # @smartcarmarket
+      - "SRC-037" # @capitalcarmarket
+      - "SRC-038" # @ethiocardealers
+      - "SRC-040" # @ev_ethiopia
+
+  web_marketplaces:
+    request_timeout_seconds: 15
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
+    active_sources:
+      - "SRC-022" # AfroMekina
+      - "SRC-023" # Mekina.net
+      - "SRC-024" # EthioDrive
+      - "SRC-025" # CarGebeya
+      - "SRC-026" # Evtopia
+      - "SRC-029" # Gezat
+
+  tiktok_apify:
+    actor_id: "clockworks/free-tiktok-scraper"
+    max_items_per_query: 30
+    active_topics:
+      - "SRC-041" # #EthiopiaEV
+      - "SRC-042" # #BYDEthiopia
+      - "SRC-043" # @evtopia.et
+      - "SRC-044" # @zemenmotors
+
+  manual_inquiry_suppliers:
+    verification_mode: "Phone / Direct Showroom Inquiry"
+    active_sources:
+      - "SRC-001" # Sunny Spare Parts
+      - "SRC-002" # Yami Cars
+      - "SRC-003" # BYD Ethiopia / MOENCO
+      - "SRC-010" # Markon Car Importer
+      - "SRC-027" # Kairos Addis
+      - "SRC-030" # Yemareyam Import
+      - "SRC-031" # SARA General Import
+      - "SRC-032" # Belayneh Kindie / BKME Kaliti
+
+  trade_and_catalogues:
+    active_sources:
+      - "SRC-050" # UN Comtrade
+      - "SRC-052" # BYD EPC
+      - "SRC-053" # Changan Global
+      - "SRC-055" # Amayama
+      - "SRC-057" # Alibaba B2B
+      - "SRC-058" # Made-in-China

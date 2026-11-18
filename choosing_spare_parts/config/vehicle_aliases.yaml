@@ -1,0 +1,89 @@
+# Vehicle Model Aliases & Normalization Mapping
+# Prevents merging similar vehicle models while capturing all international, local & misspelled aliases
+version: "1.0"
+vehicle_aliases:
+  "BYD Seagull":
+    standard_name: "BYD Seagull"
+    vehicle_id: "VEH-BYD-SEAGULL"
+    english_aliases:
+      - "BYD Seagull"
+      - "Seagull"
+      - "BYD Segull"
+      - "Segull"
+      - "BYD Sea-gull"
+      - "Dolphin Mini"
+      - "BYD Dolphin Mini"
+    trim_aliases:
+      - "Seagull Vitality"
+      - "Seagull Free"
+      - "Seagull Flying"
+    chinese_aliases:
+      - "比亚迪海鸥"
+      - "海鸥"
+    amharic_aliases:
+      - "ቢዋይዲ ሲጋል"
+      - "ሲጋል"
+      - "ዶልፊን ሚኒ"
+    forbidden_merges:
+      - "BYD Dolphin"
+      - "BYD Seal"
+      - "BYD Atto 3"
+
+  "BYD Yuan Up":
+    standard_name: "BYD Yuan Up"
+    vehicle_id: "VEH-BYD-YUAN-UP"
+    english_aliases:
+      - "BYD Yuan Up"
+      - "Yuan Up"
+      - "BYD YuanUp"
+      - "YuanUp"
+      - "BYD Yuan-Up"
+      - "Yuan-Up"
+    trim_aliases:
+      - "Yuan Up Leading"
+      - "Yuan Up Transcending"
+      - "Yuan Up Vitality"
+    chinese_aliases:
+      - "比亚迪元UP"
+      - "元UP"
+      - "元 Up"
+    amharic_aliases:
+      - "ቢዋይዲ ዩዋን አፕ"
+      - "ዩዋን አፕ"
+      - "ዩዋንአፕ"
+    forbidden_merges:
+      - "BYD Yuan Plus"
+      - "BYD Atto 3"
+      - "BYD Yuan Pro"
+
+  "Changan Benben E-Star":
+    standard_name: "Changan Benben E-Star"
+    vehicle_id: "VEH-CHANGAN-BENBEN"
+    english_aliases:
+      - "Changan Benben E-Star"
+      - "Changan Benben"
+      - "Benben E-Star"
+      - "Benben"
+      - "BenBen"
+      - "Benni E-Star"
+      - "Benni EV"
+      - "Changan E-Star"
+      - "E-Star"
+    trim_aliases:
+      - "Benben Heartbeat"
+      - "Benben National"
+      - "Benben Happy"
+    chinese_aliases:
+      - "长安奔奔E-Star"
+      - "长安奔奔"
+      - "奔奔E-Star"
+      - "奔奔"
+    amharic_aliases:
+      - "ቻንጋን ቤንቤን"
+      - "ቤንቤን ኢ-ስታር"
+      - "ቤንቤን"
+      - "ቤን ቤን"
+    forbidden_merges:
+      - "Changan Lumin"
+      - "Changan Alsvin"
+      - "Changan CS35"

@@ -1,6 +1,45 @@
-part_name,oem_part_number,vehicle_model,oem_manufacturer,unit_cost_usd_est
-Front Suspension Strut (Left),BYD-SG-2901100-A,BYD Seagull,BYD Auto Parts,42.0
-Front Suspension Strut (Right),BYD-SG-2901200-A,BYD Seagull,BYD Auto Parts,42.0
-On-Board Charger Unit (3.3kW),CA-ES-8201010,Changan Benben E-Star,Changan Automobile,180.0
-Front Brake Pad Kit,04465-42210,Toyota bZ4X,Toyota Motor Corp / Advics,65.0
-Electric AC Compressor,BYD-YP-8103010,BYD Yuan Up,BYD Auto Parts,240.0
+vehicle_model,part_category,specific_component,oem_part_number,cross_reference_part_numbers,interchangeability_notes,reference_source
+BYD Seagull,brake_pads,Front Brake Pad Set,BYD-10283401-00,D2411 / FMSI-D2411,Shared with BYD Dolphin (Front Caliper),BYD FinDreams Parts Manual 2024
+BYD Seagull,brake_pads,Rear Brake Pad Set,BYD-10283452-00,D2412 / TRW-GDB8211,Rear electronic parking brake caliper integrated,BYD Parts Catalogue
+BYD Seagull,brake_discs,Front Ventilated Brake Disc,BYD-10283610-00,280mm 4x100 PCD,Proprietary BYD Seagull front hub pattern,BYD EPC
+BYD Seagull,brake_discs,Rear Solid Brake Disc,BYD-10283650-00,260mm 4x100 PCD,Solid disc for rear axle,BYD EPC
+BYD Seagull,cabin_air_filters,CN95 Cabin Air Filter,BYD-8114010-00,CN95-SEAGULL / Mann CU22014,Standard PM2.5/CN95 particulate filter,BYD Maintenance Schedule
+BYD Seagull,wiper_blades,Front Windshield Wiper Blade Set,BYD-5205010-00,24 inch (Driver) / 16 inch (Passenger),U-hook / Pinch tab arm adapter,BYD Maintenance Schedule
+BYD Seagull,headlights,LED Headlight Assembly (Left),BYD-4121010-00,Projector LED with integrated DRL,Left-hand drive (LHD) beam cutoff,BYD Parts Catalogue
+BYD Seagull,headlights,LED Headlight Assembly (Right),BYD-4121020-00,Projector LED with integrated DRL,Left-hand drive (LHD) beam cutoff,BYD Parts Catalogue
+BYD Seagull,tail_lights,Rear Light Cluster (Full Bar),BYD-4133010-00,Through-type rear LED light bar,Full-width trunk lid integrated,BYD Parts Catalogue
+BYD Seagull,side_mirrors,Power Side Mirror Assembly (Left),BYD-8202010-00,Electric adjust + heater + blind spot LED,6-wire / 8-wire harness variation,BYD Parts Catalogue
+BYD Seagull,side_mirrors,Power Side Mirror Assembly (Right),BYD-8202020-00,Electric adjust + heater + blind spot LED,Right side mirror,BYD Parts Catalogue
+BYD Seagull,bumpers,Front Bumper Cover,BYD-2803010-00,Molded PP bumper with lower intake,Unpainted primer / factory color coded,BYD Parts Catalogue
+BYD Seagull,bumpers,Rear Bumper Cover,BYD-2804010-00,Rear bumper cover with diffuser insert,Includes parking sensor cutouts,BYD Parts Catalogue
+BYD Seagull,fenders_body_panels,Front Left Fender,BYD-5301010-00,Steel stamped wing panel,Protects front wheel arch,BYD Parts Catalogue
+BYD Seagull,fenders_body_panels,Front Right Fender,BYD-5301020-00,Steel stamped wing panel,Protects front wheel arch,BYD Parts Catalogue
+BYD Seagull,shock_absorbers,Front MacPherson Strut (Left),BYD-2905010-00,Hydraulic damper with coil spring seat,Tuned for 1160kg curb weight,BYD Suspension Manual
+BYD Seagull,shock_absorbers,Front MacPherson Strut (Right),BYD-2905020-00,Hydraulic damper with coil spring seat,Right side strut,BYD Suspension Manual
+BYD Seagull,shock_absorbers,Rear Shock Absorber Set,BYD-2915010-00,Torsion beam rear twin-tube damper,Pair (L/R interchangeable),BYD Suspension Manual
+BYD Yuan Up,brake_pads,Front Brake Pad Set,BYD-10352200-00,D2540 / FMSI-D2540,Shared with BYD Atto 3 / Dolphin (e-Platform 3.0),BYD EPC 2024
+BYD Yuan Up,brake_pads,Rear Brake Pad Set,BYD-10352250-00,D2541,Electric parking brake caliper compatible,BYD EPC 2024
+BYD Yuan Up,brake_discs,Front Brake Disc Rotor,BYD-10352400-00,300mm Ventilated 5x114.3 PCD,Heavy-duty rotor for 1430kg SUV,BYD EPC 2024
+BYD Yuan Up,cabin_air_filters,Active Carbon Cabin Filter,BYD-8114050-00,PM2.5 / CN95 Antibacterial,Shared with BYD Yuan Plus / Atto 3,BYD Maintenance Schedule
+BYD Yuan Up,headlights,LED Headlamp Assembly (Left),BYD-4121050-00,Matrix LED Projector with Dragon Face DRL,LHD optical pattern,BYD Parts Catalogue
+BYD Yuan Up,headlights,LED Headlamp Assembly (Right),BYD-4121060-00,Matrix LED Projector with Dragon Face DRL,LHD optical pattern,BYD Parts Catalogue
+BYD Yuan Up,tail_lights,Continuous Rear Light Bar,BYD-4133050-00,Cross-ribbon LED tail lamp,Integrated tailgate lighting,BYD Parts Catalogue
+BYD Yuan Up,side_mirrors,Side Mirror Assembly (L),BYD-8202050-00,Power fold + heating + 360 camera,12-pin luxury harness,BYD Parts Catalogue
+BYD Yuan Up,bumpers,Front Bumper Assembly,BYD-2803050-00,Crossover rugged lower cladding,Includes millimeter-wave radar mount,BYD Parts Catalogue
+BYD Yuan Up,fenders_body_panels,Front Fender Panel (L),BYD-5301050-00,Stamped steel fender with plastic flare mount,Crossover body styling,BYD Parts Catalogue
+BYD Yuan Up,shock_absorbers,Front Strut Damper (L),BYD-2905050-00,MacPherson strut calibrated for e-Platform 3.0,Reinforced rebound stop,BYD Suspension Manual
+BYD Yuan Up,shock_absorbers,Rear Shock Absorber,BYD-2915050-00,High-damping rear shock absorber,Torsion beam rear axle,BYD Suspension Manual
+Changan Benben E-Star,brake_pads,Front Brake Pad Set,CA-3501110-A01,D1518 / Changan OEM 3501110,Shared with Changan Benben ICE / Benni EV,Changan Parts Manual
+Changan Benben E-Star,brake_pads,Rear Brake Shoe / Pad Set,CA-3502110-A01,Rear brake shoe lining (drum / disc variant),Green taxi commercial specification,Changan Parts Manual
+Changan Benben E-Star,brake_discs,Front Brake Disc Rotor,CA-3501120-A01,256mm Ventilated Disc 4x100 PCD,Direct interchange with Benni series,Changan EPC
+Changan Benben E-Star,cabin_air_filters,Cabin Air Filter,CA-8114010-B02,Particulate paper filter element,Inexpensive periodic replacement item,Changan Maintenance
+Changan Benben E-Star,wiper_blades,Wiper Blade Set,CA-5205010-A01,21 inch (Driver) / 14 inch (Passenger),Standard J-hook arm fitting,Changan Maintenance
+Changan Benben E-Star,headlights,Front Headlight Assembly (L),CA-4121010-C01,Reflector halogen/LED combo headlamp,Changan green taxi fleet standard,Changan Parts Manual
+Changan Benben E-Star,headlights,Front Headlight Assembly (R),CA-4121020-C01,Reflector halogen/LED combo headlamp,Changan green taxi fleet standard,Changan Parts Manual
+Changan Benben E-Star,tail_lights,Rear Tail Lamp (L),CA-4133010-C01,Vertical rear lamp cluster,Commercial fleet grade,Changan Parts Manual
+Changan Benben E-Star,side_mirrors,Manual/Power Side Mirror (L),CA-8202010-A01,Standard manual or electric mirror assembly,Cost-effective taxi replacement,Changan Parts Manual
+Changan Benben E-Star,bumpers,Front Bumper Cover,CA-2803010-C01,Molded front bumper for E-Star green grille,Local repairable polypropylene,BKME Assembly Spec
+Changan Benben E-Star,bumpers,Rear Bumper Cover,CA-2804010-C01,Rear bumper cover assembly,Includes reflector cutouts,BKME Assembly Spec
+Changan Benben E-Star,fenders_body_panels,Front Fender (L),CA-5301010-B01,Stamped steel front left fender,Shared with Benben chassis,Changan Parts Manual
+Changan Benben E-Star,shock_absorbers,Front Shock Absorber Strut (L),CA-2905010-C01,MacPherson strut assembly,Heavy duty commercial taxi valving,Changan Suspension
+Changan Benben E-Star,shock_absorbers,Rear Shock Absorber,CA-2915010-C01,Rear hydraulic shock absorber,Pair interchangeable,Changan Suspension

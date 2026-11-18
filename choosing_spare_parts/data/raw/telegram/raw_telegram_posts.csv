@@ -1,3 +1,1 @@
-message_id,channel_username,message_text,date,views,forwards,media_type,phone_extracted
-TG-5501,ethiospareparts,"New shipment: Original BYD Seagull / Dolphin Mini front control arms, tie rod ends, and front struts now in stock. Contact 0911223344.",2026-11-09T14:20:00,3800,45,photo,+251911223344
-TG-5502,Abyssiniancarsales,"GB/T to Type 2 fast charge adapters and 7kW home charging stations available for all Chinese imported EVs. Price 45,000 ETB. Call 0921147330.",2026-11-12T09:15:00,5200,88,photo,+251921147330
+raw_record_id,channel_or_group,channel_id,message_id,message_url,original_text,media_type,media_reference,published_date,scraped_date,vehicle_mentioned,part_mentioned,original_payload_reference

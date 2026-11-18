@@ -1,7 +1,4 @@
-vehicle_id,make,model,class,battery_kwh,battery_chemistry,market_share_est,fleet_tier
-V-01,BYD,Seagull,Subcompact Hatchback,38.8,LFP Blade,0.38,Dominant Commuter
-V-02,BYD,Yuan Up,Compact Crossover,45.1,LFP Blade,0.22,Family SUV
-V-03,Changan,Benben E-Star,City Hatchback,32.2,LFP / Ternary,0.18,Taxi / Ride-Hailing
-V-04,Toyota,bZ4X,Mid-Size Executive SUV,66.7,NMC,0.12,Corporate / NGO
-V-05,Volkswagen,ID.6,7-Seater Large SUV,84.8,NMC,0.06,Luxury Gray Market
-V-06,Volkswagen,ID.4,Compact SUV,84.8,NMC,0.04,Legacy Gray Market
+vehicle_id,make,model,model_years,platform,powertrain_type,battery_chemistry,battery_capacities_kwh,voltage_system_v,curb_weight_kg,drive_layout,primary_assembly_origin,ethiopian_market_role
+VEH-BYD-SEAGULL,BYD,Seagull,2023;2024;2025;2026,BYD e-Platform 3.0,BEV (Battery Electric Vehicle),FinDreams Blade Battery (LFP),30.08;38.88,307.2,1160,Front-Wheel Drive (FWD),China (Changsha / Xi'an),Dominant urban hatchback; highest daily commuter and corporate fleet volume
+VEH-BYD-YUAN-UP,BYD,Yuan Up,2024;2025;2026,BYD e-Platform 3.0 (CTB Integrated),BEV (Battery Electric Vehicle),FinDreams Blade Battery (LFP),32.0;45.12,400.0,1430,Front-Wheel Drive (FWD),China (Shenzhen / Changsha),Compact family crossover; high demand among middle/upper-middle private buyers
+VEH-CHANGAN-BENBEN,Changan,Benben E-Star,2020;2021;2022;2023;2024,Changan Small EV Architecture,BEV (Battery Electric Vehicle),Lithium Iron Phosphate (LFP / CATL),31.18;32.2,320.0,1180,Front-Wheel Drive (FWD),China (Chongqing) / Ethiopia (BKME Kaliti SKD assembly),Core commercial public transport & green taxi fleet vehicle

@@ -1,0 +1,139 @@
+# Multi-Platform Search Query Configuration Matrix
+# 3 Vehicles x 10 Categories = 30 Vehicle-Part Research Matrix Combinations
+version: "1.0"
+
+search_matrix:
+  # Vehicle 1: BYD Seagull
+  byd_seagull:
+    vehicle_standard: "BYD Seagull"
+    queries_by_category:
+      brake_pads:
+        telegram: ["BYD Seagull brake pads", "Seagull brake pad Addis", "የሲጋል ፍሬን ፓድ", "BYD 海鸥 刹车片"]
+        marketplace: ["BYD Seagull brake pads Ethiopia", "Seagull front brake pad Addis Ababa"]
+        tiktok: ["#bydseagull brake", "Seagull brake replacement Addis"]
+      brake_discs:
+        telegram: ["BYD Seagull brake disc", "Seagull rotor Addis", "የሲጋል ፍሬን ዲስክ", "BYD 海鸥 刹车盘"]
+        marketplace: ["BYD Seagull brake disc rotor Ethiopia"]
+        tiktok: ["#bydseagull brakes", "BYD Seagull brake disc"]
+      cabin_air_filters:
+        telegram: ["BYD Seagull cabin filter", "Seagull AC filter Addis", "የሲጋል ኤሲ ፊልተር", "BYD 海鸥 空调滤芯"]
+        marketplace: ["BYD Seagull cabin air filter Ethiopia"]
+        tiktok: ["#bydseagull filter", "Seagull AC filter"]
+      wiper_blades:
+        telegram: ["BYD Seagull wiper blades", "Seagull wiper Addis", "የሲጋል ዋይፐር", "BYD 海鸥 雨刮"]
+        marketplace: ["BYD Seagull windshield wiper blades Ethiopia"]
+        tiktok: ["#bydseagull wiper", "Seagull wipers"]
+      headlights:
+        telegram: ["BYD Seagull headlight", "Seagull front light Addis", "የሲጋል የፊት መብራት", "BYD 海鸥 前大灯"]
+        marketplace: ["BYD Seagull LED headlight assembly Ethiopia"]
+        tiktok: ["#bydseagull headlight", "Seagull headlamp Addis"]
+      tail_lights:
+        telegram: ["BYD Seagull taillight", "Seagull rear lamp Addis", "የሲጋል የኋላ መብራት", "BYD 海鸥 尾灯"]
+        marketplace: ["BYD Seagull tail light assembly Ethiopia"]
+        tiktok: ["#bydseagull taillight", "Seagull tail lamp"]
+      side_mirrors:
+        telegram: ["BYD Seagull side mirror", "Seagull wing mirror Addis", "የሲጋል የጎን መስታወት", "BYD 海鸥 后视镜"]
+        marketplace: ["BYD Seagull side mirror assembly Ethiopia"]
+        tiktok: ["#bydseagull mirror", "Seagull side mirror"]
+      bumpers:
+        telegram: ["BYD Seagull bumper", "Seagull front bumper Addis", "የሲጋል ባምፐር", "BYD 海鸥 前保险杠"]
+        marketplace: ["BYD Seagull front rear bumper cover Ethiopia"]
+        tiktok: ["#bydseagull bumper", "Seagull bumper body Addis"]
+      fenders_body_panels:
+        telegram: ["BYD Seagull fender", "Seagull body parts Addis", "የሲጋል ፌንደር", "BYD 海鸥 翼子板"]
+        marketplace: ["BYD Seagull front fender body panel Ethiopia"]
+        tiktok: ["#bydseagull fender", "Seagull body repair Addis"]
+      shock_absorbers:
+        telegram: ["BYD Seagull shock absorber", "Seagull strut Addis", "የሲጋል ሾክ አምጪ", "BYD 海鸥 减震器"]
+        marketplace: ["BYD Seagull front shock absorber strut Ethiopia"]
+        tiktok: ["#bydseagull suspension", "Seagull shock absorber repair"]
+
+  # Vehicle 2: BYD Yuan Up
+  byd_yuan_up:
+    vehicle_standard: "BYD Yuan Up"
+    queries_by_category:
+      brake_pads:
+        telegram: ["BYD Yuan Up brake pads", "Yuan Up brake pad Addis", "የዩዋን አፕ ፍሬን ፓድ", "BYD 元UP 刹车片"]
+        marketplace: ["BYD Yuan Up brake pads Ethiopia", "Yuan Up front brake pad Addis"]
+        tiktok: ["#bydyuanup brake", "Yuan Up brake pad"]
+      brake_discs:
+        telegram: ["BYD Yuan Up brake disc", "Yuan Up rotor Addis", "የዩዋን አፕ ፍሬን ዲስክ", "BYD 元UP 刹车盘"]
+        marketplace: ["BYD Yuan Up brake disc rotor Ethiopia"]
+        tiktok: ["#bydyuanup brakes", "Yuan Up brake disc"]
+      cabin_air_filters:
+        telegram: ["BYD Yuan Up cabin filter", "Yuan Up AC filter Addis", "የዩዋን አፕ ኤሲ ፊልተር", "BYD 元UP 空调滤芯"]
+        marketplace: ["BYD Yuan Up cabin air filter Ethiopia"]
+        tiktok: ["#bydyuanup filter", "Yuan Up AC filter"]
+      wiper_blades:
+        telegram: ["BYD Yuan Up wiper blades", "Yuan Up wiper Addis", "የዩዋን አፕ ዋይፐር", "BYD 元UP 雨刷"]
+        marketplace: ["BYD Yuan Up windshield wiper blades Ethiopia"]
+        tiktok: ["#bydyuanup wiper", "Yuan Up wipers"]
+      headlights:
+        telegram: ["BYD Yuan Up headlight", "Yuan Up front light Addis", "የዩዋን አፕ የፊት መብራት", "BYD 元UP 大灯"]
+        marketplace: ["BYD Yuan Up LED headlight assembly Ethiopia"]
+        tiktok: ["#bydyuanup headlight", "Yuan Up front light"]
+      tail_lights:
+        telegram: ["BYD Yuan Up taillight", "Yuan Up rear light Addis", "የዩዋን አፕ የኋላ መብራት", "BYD 元UP 尾灯"]
+        marketplace: ["BYD Yuan Up tail light assembly Ethiopia"]
+        tiktok: ["#bydyuanup taillight", "Yuan Up tail lamp"]
+      side_mirrors:
+        telegram: ["BYD Yuan Up side mirror", "Yuan Up mirror Addis", "የዩዋን አፕ የጎን መስታወት", "BYD 元UP 后视镜"]
+        marketplace: ["BYD Yuan Up side mirror assembly Ethiopia"]
+        tiktok: ["#bydyuanup mirror", "Yuan Up side mirror"]
+      bumpers:
+        telegram: ["BYD Yuan Up bumper", "Yuan Up front bumper Addis", "የዩዋን አፕ ባምፐር", "BYD 元UP 保险杠"]
+        marketplace: ["BYD Yuan Up front rear bumper Ethiopia"]
+        tiktok: ["#bydyuanup bumper", "Yuan Up bumper repair"]
+      fenders_body_panels:
+        telegram: ["BYD Yuan Up fender", "Yuan Up body parts Addis", "የዩዋን አፕ ፌንደር", "BYD 元UP 翼子板"]
+        marketplace: ["BYD Yuan Up front fender body panel Ethiopia"]
+        tiktok: ["#bydyuanup fender", "Yuan Up body panel"]
+      shock_absorbers:
+        telegram: ["BYD Yuan Up shock absorber", "Yuan Up strut Addis", "የዩዋን አፕ ሾክ አምጪ", "BYD 元UP 减震器"]
+        marketplace: ["BYD Yuan Up shock absorber strut Ethiopia"]
+        tiktok: ["#bydyuanup suspension", "Yuan Up shock absorber"]
+
+  # Vehicle 3: Changan Benben E-Star
+  changan_benben:
+    vehicle_standard: "Changan Benben E-Star"
+    queries_by_category:
+      brake_pads:
+        telegram: ["Changan Benben brake pads", "Benben E-Star brake pad Addis", "የቤንቤን ፍሬን ፓድ", "长安奔奔 刹车片"]
+        marketplace: ["Changan Benben E-Star brake pads Ethiopia", "Benben front brake pad Addis"]
+        tiktok: ["#changanbenben brake", "Benben E-Star brake pad replacement"]
+      brake_discs:
+        telegram: ["Changan Benben brake disc", "Benben rotor Addis", "የቤንቤን ፍሬን ዲስክ", "长安奔奔 刹车盘"]
+        marketplace: ["Changan Benben E-Star brake disc rotor Ethiopia"]
+        tiktok: ["#changanbenben brakes", "Benben brake disc"]
+      cabin_air_filters:
+        telegram: ["Changan Benben cabin filter", "Benben AC filter Addis", "የቤንቤን ኤሲ ፊልተር", "长安奔奔 空调滤芯"]
+        marketplace: ["Changan Benben E-Star cabin filter Ethiopia"]
+        tiktok: ["#changanbenben filter", "Benben AC filter"]
+      wiper_blades:
+        telegram: ["Changan Benben wiper blades", "Benben wiper Addis", "የቤንቤን ዋይፐር", "长安奔奔 雨刮"]
+        marketplace: ["Changan Benben E-Star wiper blades Ethiopia"]
+        tiktok: ["#changanbenben wiper", "Benben wipers"]
+      headlights:
+        telegram: ["Changan Benben headlight", "Benben front light Addis", "የቤንቤን የፊት መብራት", "长安奔奔 大灯"]
+        marketplace: ["Changan Benben E-Star headlight assembly Ethiopia"]
+        tiktok: ["#changanbenben headlight", "Benben headlamp Addis"]
+      tail_lights:
+        telegram: ["Changan Benben taillight", "Benben rear light Addis", "የቤንቤን የኋላ መብራት", "长安奔奔 尾灯"]
+        marketplace: ["Changan Benben E-Star taillight assembly Ethiopia"]
+        tiktok: ["#changanbenben taillight", "Benben tail lamp"]
+      side_mirrors:
+        telegram: ["Changan Benben side mirror", "Benben mirror Addis", "የቤንቤን የጎን መስታወት", "长安奔奔 后视镜"]
+        marketplace: ["Changan Benben E-Star side mirror assembly Ethiopia"]
+        tiktok: ["#changanbenben mirror", "Benben side mirror"]
+      bumpers:
+        telegram: ["Changan Benben bumper", "Benben front bumper Addis", "የቤንቤን ባምፐር", "长安奔奔 保险杠"]
+        marketplace: ["Changan Benben E-Star front rear bumper Ethiopia"]
+        tiktok: ["#changanbenben bumper", "Benben taxi bumper repair"]
+      fenders_body_panels:
+        telegram: ["Changan Benben fender", "Benben body parts Addis", "የቤንቤን ፌንደር", "长安奔奔 翼子板"]
+        marketplace: ["Changan Benben E-Star front fender panel Ethiopia"]
+        tiktok: ["#changanbenben fender", "Benben taxi body repair"]
+      shock_absorbers:
+        telegram: ["Changan Benben shock absorber", "Benben strut Addis", "የቤንቤን ሾክ አምጪ", "长安奔奔 减震器"]
+        marketplace: ["Changan Benben E-Star front shock absorber Ethiopia"]
+        tiktok: ["#changanbenben suspension", "Benben shock absorber taxi"]

@@ -1,67 +1,57 @@
-# Ethiopian EV Target Vehicle Taxonomy
-vehicles:
-  - id: "BYD-SEAGULL"
+# Target Vehicle Taxonomy Configuration
+# Research Scope: 3 Selected Electric Passenger Vehicles in Ethiopia
+version: "1.0"
+target_vehicles:
+  - id: "VEH-BYD-SEAGULL"
     make: "BYD"
     model: "Seagull"
-    aliases: ["Seagull", "Dolphin Mini", "ሲጋል"]
-    years: [2023, 2024, 2025, 2026]
-    battery_type: "LFP Blade Battery"
-    voltage_system: "307.2V"
-    motor_type: "Permanent Magnet Synchronous Motor (TZ180XSH)"
-    cooling_system: "Liquid Cooled"
-    popular_tier: "Tier 1 - Dominant"
+    model_years: [2023, 2024, 2025, 2026]
+    platform: "BYD e-Platform 3.0"
+    powertrain_type: "BEV (Battery Electric Vehicle)"
+    battery_chemistry: "FinDreams Blade Battery (LFP)"
+    battery_capacities_kwh: [30.08, 38.88]
+    voltage_system_v: 307.2
+    curb_weight_kg: 1160
+    drive_layout: "Front-Wheel Drive (FWD)"
+    front_brake_type: "Ventilated Disc"
+    rear_brake_type: "Solid Disc"
+    front_suspension: "MacPherson Independent Strut"
+    rear_suspension: "Torsion Beam Non-Independent"
+    primary_assembly_origin: "China (Changsha / Xi'an)"
+    ethiopian_market_role: "Dominant urban hatchback; highest daily commuter and corporate fleet volume"
 
-  - id: "BYD-YUAN-UP"
+  - id: "VEH-BYD-YUAN-UP"
     make: "BYD"
     model: "Yuan Up"
-    aliases: ["Yuan Up", "Atto 3", "Yuan Plus", "ዩዋን አፕ"]
-    years: [2024, 2025, 2026]
-    battery_type: "LFP Blade Battery (e-Platform 3.0)"
-    voltage_system: "400V"
-    motor_type: "TZ200XSQ (130kW / 150kW)"
-    cooling_system: "Direct Heat Pump / Liquid"
-    popular_tier: "Tier 1 - Dominant"
+    model_years: [2024, 2025, 2026]
+    platform: "BYD e-Platform 3.0 (CTB Integrated)"
+    powertrain_type: "BEV (Battery Electric Vehicle)"
+    battery_chemistry: "FinDreams Blade Battery (LFP)"
+    battery_capacities_kwh: [32.0, 45.12]
+    voltage_system_v: 400.0
+    curb_weight_kg: 1430
+    drive_layout: "Front-Wheel Drive (FWD)"
+    front_brake_type: "Ventilated Disc"
+    rear_brake_type: "Solid Disc"
+    front_suspension: "MacPherson Independent Strut"
+    rear_suspension: "Torsion Beam Semi-Independent"
+    primary_assembly_origin: "China (Shenzhen / Changsha)"
+    ethiopian_market_role: "Compact family crossover; high demand among middle/upper-middle private buyers"
 
-  - id: "CHANGAN-BENBEN"
+  - id: "VEH-CHANGAN-BENBEN"
     make: "Changan"
     model: "Benben E-Star"
-    aliases: ["Benben", "Benben E-Star", "E-Star", "ቤንቤን"]
-    years: [2021, 2022, 2023, 2024]
-    battery_type: "LFP / Ternary Lithium (32.2 kWh)"
-    voltage_system: "320V"
-    motor_type: "Permanent Magnet Motor (55kW)"
-    cooling_system: "Liquid"
-    popular_tier: "Tier 1 - Commercial Fleet"
-
-  - id: "TOYOTA-BZ4X"
-    make: "Toyota"
-    model: "bZ4X"
-    aliases: ["bZ4X", "Toyota EV", "ቶዮታ bZ4X"]
-    years: [2022, 2023, 2024, 2025]
-    battery_type: "NMC Lithium-ion (CATL/Panasonic 66.7 kWh)"
-    voltage_system: "355V"
-    motor_type: "1XM (Front) / 1YM (Rear)"
-    cooling_system: "Liquid with Heat Exchanger"
-    popular_tier: "Tier 2 - Executive / Premium"
-
-  - id: "VW-ID6"
-    make: "Volkswagen"
-    model: "ID.6"
-    aliases: ["ID.6", "ID6", "ID.6 Crozz", "ID.6 X", "አይዲ 6"]
-    years: [2021, 2022, 2023, 2024]
-    battery_type: "NMC Ternary (84.8 kWh MEB Platform)"
-    voltage_system: "408V"
-    motor_type: "APP310 Permanent Magnet"
-    cooling_system: "Liquid Thermal Management"
-    popular_tier: "Tier 3 - Parallel / Gray Market"
-
-  - id: "VW-ID4"
-    make: "Volkswagen"
-    model: "ID.4"
-    aliases: ["ID.4", "ID4", "ID.4 Crozz", "ID.4 X", "አይዲ 4"]
-    years: [2021, 2022, 2023, 2024]
-    battery_type: "NMC Ternary (84.8 kWh / 55 kWh)"
-    voltage_system: "408V"
-    motor_type: "APP310"
-    cooling_system: "Liquid"
-    popular_tier: "Tier 3 - Parallel / Gray Market"
+    model_years: [2020, 2021, 2022, 2023, 2024]
+    platform: "Changan Small EV Architecture"
+    powertrain_type: "BEV (Battery Electric Vehicle)"
+    battery_chemistry: "Lithium Iron Phosphate (LFP / CATL)"
+    battery_capacities_kwh: [31.18, 32.2]
+    voltage_system_v: 320.0
+    curb_weight_kg: 1180
+    drive_layout: "Front-Wheel Drive (FWD)"
+    front_brake_type: "Ventilated Disc"
+    rear_brake_type: "Solid Disc / Drum (Trim dependent)"
+    front_suspension: "MacPherson Independent Strut"
+    rear_suspension: "Torsion Beam Non-Independent"
+    primary_assembly_origin: "China (Chongqing) / Ethiopia (BKME Kaliti SKD assembly)"
+    ethiopian_market_role: "Core commercial public transport & green taxi fleet vehicle"

@@ -1,7 +1,38 @@
-standard_model,alias_or_transliteration,language
-BYD Seagull,ሲጋል,Amharic
-BYD Seagull,Dolphin Mini,International Export Name
-BYD Yuan Up,ዩዋን አፕ,Amharic
-BYD Yuan Up,Atto 3,Shared Platform Variant
-Changan Benben E-Star,ቤንቤን,Amharic
-Toyota bZ4X,ቶዮታ bZ4X,Amharic
+standard_model,alias,alias_type,language
+BYD Seagull,Seagull,English Short Name,English
+BYD Seagull,BYD Segull,Common Misspelling,English
+BYD Seagull,Segull,Common Misspelling,English
+BYD Seagull,Dolphin Mini,Export Marketing Name,English
+BYD Seagull,BYD Dolphin Mini,Export Marketing Name,English
+BYD Seagull,Seagull Vitality,Trim Name (30.08 kWh),English
+BYD Seagull,Seagull Free,Trim Name (38.88 kWh),English
+BYD Seagull,Seagull Flying,Trim Name (38.88 kWh),English
+BYD Seagull,海鸥,Original OEM Name,Chinese
+BYD Seagull,比亚迪海鸥,Full OEM Name,Chinese
+BYD Seagull,ሲጋል,Amharic Transliteration,Amharic
+BYD Seagull,ቢዋይዲ ሲጋል,Amharic Transliteration,Amharic
+BYD Yuan Up,Yuan Up,English Standard Name,English
+BYD Yuan Up,YuanUp,Concatenated Name,English
+BYD Yuan Up,Yuan-Up,Hyphenated Name,English
+BYD Yuan Up,BYD YuanUp,Concatenated Name,English
+BYD Yuan Up,Yuan Up Leading,Trim Name (45.12 kWh),English
+BYD Yuan Up,Yuan Up Transcending,Trim Name (45.12 kWh),English
+BYD Yuan Up,元UP,Original OEM Name,Chinese
+BYD Yuan Up,比亚迪元UP,Full OEM Name,Chinese
+BYD Yuan Up,ዩዋን አፕ,Amharic Transliteration,Amharic
+BYD Yuan Up,ቢዋይዲ ዩዋን አፕ,Amharic Transliteration,Amharic
+Changan Benben E-Star,Benben E-Star,English Standard Name,English
+Changan Benben E-Star,Benben,Short Model Name,English
+Changan Benben E-Star,BenBen,CamelCase Short Name,English
+Changan Benben E-Star,Benni E-Star,Alternative Transliteration,English
+Changan Benben E-Star,Benni EV,Alternative Transliteration,English
+Changan Benben E-Star,Changan E-Star,Abbreviated Name,English
+Changan Benben E-Star,E-Star,Short Sub-model Name,English
+Changan Benben E-Star,Benben Heartbeat,Trim Name (31.18 kWh),English
+Changan Benben E-Star,Benben National,Trim Name (32.2 kWh),English
+Changan Benben E-Star,奔奔E-Star,Original OEM Name,Chinese
+Changan Benben E-Star,长安奔奔,Full OEM Brand Name,Chinese
+Changan Benben E-Star,奔奔,Short Chinese Name,Chinese
+Changan Benben E-Star,ቤንቤን,Amharic Transliteration,Amharic
+Changan Benben E-Star,ቻንጋን ቤንቤን,Amharic Transliteration,Amharic
+Changan Benben E-Star,ቤን ቤን,Separated Amharic Transliteration,Amharic
