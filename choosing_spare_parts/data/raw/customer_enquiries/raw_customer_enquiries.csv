@@ -1,0 +1,4 @@
+enquiry_id,platform,date,vehicle_model,requested_part,urgency_level,contact_flag
+ENQ-501,Telegram Support Bot,2026-11-04,BYD Seagull,Front Bumper & Headlight Assembly,High (Accident repair),True
+ENQ-502,WhatsApp Helpline,2026-11-07,Toyota bZ4X,Portable 16A Level 2 Charging Cable,Medium,True
+ENQ-503,Website Contact Form,2026-11-11,Volkswagen ID.4,MEB Infotainment / IC Driver Display Screen,High (Black screen fault),True

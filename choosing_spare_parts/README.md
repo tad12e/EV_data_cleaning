@@ -1,23 +1,29 @@
-# Spare Parts & Component Supply Intelligence (`choosing_spare_parts`)
+# Ethiopia EV Spare Parts Intelligence & Supply Chain Analysis
 
-This module is reserved for data collection, cleaning, and market analysis of **Electric Vehicle Spare Parts & Maintenance Infrastructure** in Ethiopia.
+An end-to-end framework for data ingestion, cleaning, demand-supply gap analysis, and import prioritization of Electric Vehicle (EV) spare parts and maintenance components in Ethiopia.
 
----
+## Overview
+As Ethiopia transitions rapidly toward electric mobility following the Ministry of Transport and Logistics (MoTL) internal combustion engine (ICE) import ban and Ministry of Finance (MoFED) tax exemptions, vehicle reliability depends heavily on the aftermarket spare parts ecosystem.
 
-## Planned Scope & Datasets
+This repository tracks:
+1. Market listing availability across Ethiopian classifieds (Jiji, Adey Market, Mekina).
+2. Field repair evidence from specialized EV workshops (Kera, Saris, Bole).
+3. Social media sentiment & customer inquiries (Telegram channels, TikTok reviews).
+4. Official customs & Port of Djibouti trade flow data.
 
-1. **High-Voltage Battery Pack & Cell Availability**:
-   * Sourcing and replacement pricing for LFP (Lithium Iron Phosphate / Blade) and NMC battery modules.
-   * Lead times from Chinese OEMs via Djibouti port.
-2. **Motors, Inverters, & Power Electronics**:
-   * Availability of drive units, OBC (On-Board Chargers), and DC-DC converters in Addis Ababa.
-3. **Wear & Tear Mechanical Components**:
-   * Suspension, steering, brake pads, and regen-braking friction parts compatible with local road conditions.
-4. **Diagnostic & Programming Tooling**:
-   * Availability of OBD/CAN diagnostic scanners, proprietary manufacturer software (BYD VDS, Toyota Techstream, VAG ODIS), and firmware reprogramming services.
-5. **Specialized EV Garages & Certified Mechanics**:
-   * Directory of workshops equipped with high-voltage PPE, battery balancing racks, and trained EV technicians in Addis Ababa (Kera, Bole, Saris, Kaliti).
+## Project Structure
+- `config/`: System YAML configuration for vehicles, parts taxonomy, keywords, and endpoints.
+- `data/`: Raw, processed, and reference data layers.
+- `notebooks/`: Step-by-step exploratory, cleaning, and modeling Jupyter Notebooks.
+- `src/`: Production-ready Python pipeline modules for ingestion, processing, analysis, and utilities.
+- `reports/`: Executive recommendations, summary tables, and visualizations.
+- `docs/`: Methodological specifications, data dictionary, reliability matrices, and limitations.
 
----
-
-*Note: Data ingestion pipelines and schema definitions for this directory will be published here upon initialization.*
+## Quick Start
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+python -m src.collectors.telegram
+python -m src.processing.normalize
+python -m src.analysis.scoring
+```

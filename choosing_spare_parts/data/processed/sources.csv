@@ -1,0 +1,5 @@
+source_id,source_name,source_type,reliability_tier,verification_method
+SRC-01,MOENCO Ethiopia,Authorized Distributor,Tier 1 (Authoritative),Direct Physical Inspection
+SRC-02,Addis EV Green Tech Workshop,Specialized Garage,Tier 2 (High),Work Order Logs
+SRC-03,Jiji Ethiopia Marketplace,Classifieds Portal,Tier 3 (Moderate),Seller Phone Verification
+SRC-04,Telegram Auto Channels,Social Messaging,Tier 3 (Moderate),Cross-listing Matching

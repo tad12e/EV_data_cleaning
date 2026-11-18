@@ -1,0 +1,5 @@
+evidence_id,source_type,source_name,vehicle_model,part_name,price_etb,availability_status,lead_time_days,confidence_score
+EV-001,Marketplace,Jiji Ethiopia,BYD Seagull,Front Suspension Strut,38000,In Stock,1,0.95
+EV-002,Workshop,Addis EV Green Tech,Changan Benben E-Star,On-Board Charger (OBC),85000,Repaired / Rebuilt,4,0.9
+EV-003,Supplier,MOENCO,BYD Yuan Up,Electric AC Compressor,115000,OEM Floor Stock,1,0.98
+EV-004,Workshop,Precision Auto Tech,Volkswagen ID.6,High-Voltage DC-DC Converter,140000,Special Order,18,0.85
