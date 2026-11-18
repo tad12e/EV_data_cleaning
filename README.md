@@ -1,6 +1,8 @@
 # Ethiopian Electric Vehicle (EV) Market Intelligence & Data Cleaning
 
-Comprehensive data collection, cleaning, and market intelligence repository analyzing the adoption, availability, pricing, and infrastructure of Electric Vehicles (EVs) in Ethiopia.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tad12e/EV_data_cleaning/blob/main/Ethiopia_EV_Market_Intelligence.ipynb)
+
+Comprehensive data collection, cleaning, and market intelligence repository analyzing the adoption, availability, pricing, and infrastructure of Electric Vehicles (EVs) in Ethiopia. All datasets can be loaded directly into any Google Colab session straight from this GitHub repository with zero configuration or Google Drive dependencies.
 
 Driven by Ethiopia's historic transition policies—including the **Ministry of Transport and Logistics (MoTL)** nationwide ban on the import of internal combustion engine (ICE) passenger vehicles and **Ministry of Finance (MoFED)** tax incentive directives—this repository consolidates multi-platform market data, dealer inventories, and government records into structured, verifiable analytical datasets.
 
