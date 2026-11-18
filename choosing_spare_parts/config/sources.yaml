@@ -18,11 +18,13 @@ collection_profiles:
     request_timeout_seconds: 15
     user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)"
     active_sources:
+      - "SRC-021" # Jiji Ethiopia (Verified Extraction)
       - "SRC-022" # AfroMekina
       - "SRC-023" # Mekina.net
       - "SRC-024" # EthioDrive
       - "SRC-025" # CarGebeya
       - "SRC-026" # Evtopia
+      - "SRC-028" # Adey Market (https://adey-market.com/)
       - "SRC-029" # Gezat
 
   tiktok_apify:
