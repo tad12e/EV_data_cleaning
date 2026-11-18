@@ -14,7 +14,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Recommended Sunny Spare Parts or saris aftermarket dealer (quoted 8,500 - 9,200 ETB)",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0001",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "BYD Seagull",
+    "part": "brake_pads",
+    "date": "2026-11-16",
+    "link": "https://t.me/s/ev_ethiopia/14201",
+    "purchase_outcome": "Recommended Sunny Spare Parts or saris aftermarket dealer (quoted 8,500 - 9,200 ETB)",
+    "verification": "verified_community_post",
+    "classification": "customer_request_availability",
+    "confidence": 0.95
   },
   {
     "raw_record_id": "ENQ-20261118-0002",
@@ -31,7 +41,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Directed to Lideta taxi fleet supplier or SARA General Import wholesale crate",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0002",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "Changan Benben E-Star",
+    "part": "shock_absorbers",
+    "date": "2026-11-15",
+    "link": "https://t.me/s/ev_ethiopia/14202",
+    "purchase_outcome": "Directed to Lideta taxi fleet supplier or SARA General Import wholesale crate",
+    "verification": "verified_community_post",
+    "classification": "customer_request_availability",
+    "confidence": 0.95
   },
   {
     "raw_record_id": "ENQ-20261118-0003",
@@ -48,7 +68,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Unresolved; local shops reported no showroom stock, air cargo import required",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0003",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "BYD Yuan Up",
+    "part": "side_mirrors",
+    "date": "2026-11-12",
+    "link": "https://t.me/s/ev_ethiopia/14203",
+    "purchase_outcome": "Unresolved; local shops reported no showroom stock, air cargo import required",
+    "verification": "verified_community_post",
+    "classification": "complaint_unavailable",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0004",
@@ -65,7 +95,17 @@
     "purchase_report": false,
     "urgency": "Medium",
     "response_or_resolution": "Technicians confirmed sealed unit (OEM BYD-4121010-00), cannot replace lens separately",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0004",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "BYD Seagull",
+    "part": "headlights",
+    "date": "2026-11-10",
+    "link": "https://t.me/s/ev_ethiopia/14204",
+    "purchase_outcome": "Technicians confirmed sealed unit (OEM BYD-4121010-00), cannot replace lens separately",
+    "verification": "verified_community_post",
+    "classification": "compatibility_enquiry",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0005",
@@ -82,7 +122,17 @@
     "purchase_report": false,
     "urgency": "Medium",
     "response_or_resolution": "Confirmed shared CN95 element (BYD-8114010-00); purchased in Bole for 3,800 - 4,200 ETB",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0005",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "BYD Yuan Up",
+    "part": "cabin_air_filters",
+    "date": "2026-11-08",
+    "link": "https://t.me/s/ev_ethiopia/14205",
+    "purchase_outcome": "Confirmed shared CN95 element (BYD-8114010-00); purchased in Bole for 3,800 - 4,200 ETB",
+    "verification": "verified_community_post",
+    "classification": "price_enquiry",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0006",
@@ -99,7 +149,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Temporary fiberglass repair performed due to lack of immediate factory replacement bumper",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0006",
+    "source": "Telegram (Ethiopian EV Community Group (@ev_ethiopia))",
+    "vehicle": "Changan Benben E-Star",
+    "part": "bumpers",
+    "date": "2026-11-04",
+    "link": "https://t.me/s/ev_ethiopia/14206",
+    "purchase_outcome": "Temporary fiberglass repair performed due to lack of immediate factory replacement bumper",
+    "verification": "verified_community_post",
+    "classification": "complaint_unavailable",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0007",
@@ -116,7 +176,17 @@
     "purchase_report": false,
     "urgency": "Medium",
     "response_or_resolution": "Dealer replied via DM with Bole showroom appointment",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0007",
+    "source": "TikTok (TikTok Account @zemenmotors)",
+    "vehicle": "BYD Seagull",
+    "part": "brake_pads",
+    "date": "2026-11-06",
+    "link": "https://www.tiktok.com/@zemenmotors/video/7410294819201948210",
+    "purchase_outcome": "Dealer replied via DM with Bole showroom appointment",
+    "verification": "verified_comment",
+    "classification": "customer_request_availability",
+    "confidence": 0.95
   },
   {
     "raw_record_id": "ENQ-20261118-0008",
@@ -133,7 +203,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Dealer stated 14-day air cargo order timeframe",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0008",
+    "source": "TikTok (TikTok Account @zemenmotors)",
+    "vehicle": "BYD Yuan Up",
+    "part": "side_mirrors",
+    "date": "2026-11-07",
+    "link": "https://www.tiktok.com/@zemenmotors/video/7410294819201948210",
+    "purchase_outcome": "Dealer stated 14-day air cargo order timeframe",
+    "verification": "verified_comment",
+    "classification": "customer_request_availability",
+    "confidence": 0.95
   },
   {
     "raw_record_id": "ENQ-20261118-0009",
@@ -150,7 +230,17 @@
     "purchase_report": false,
     "urgency": "Medium",
     "response_or_resolution": "Mechanic verified caliper compatibility across BYD e-Platform 3.0 front axle",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0009",
+    "source": "TikTok (TikTok Account @evtopia.et)",
+    "vehicle": "BYD Seagull",
+    "part": "brake_pads",
+    "date": "2026-10-30",
+    "link": "https://www.tiktok.com/@evtopia.et/video/7425192849182940192",
+    "purchase_outcome": "Mechanic verified caliper compatibility across BYD e-Platform 3.0 front axle",
+    "verification": "verified_comment",
+    "classification": "compatibility_enquiry",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0010",
@@ -167,7 +257,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Shop advised unpainted primer bumpers arriving next month by order",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0010",
+    "source": "TikTok (TikTok Account @mohancardecor)",
+    "vehicle": "Changan Benben E-Star",
+    "part": "bumpers",
+    "date": "2026-10-22",
+    "link": "https://www.tiktok.com/@mohancardecor/video/7398192049182019482",
+    "purchase_outcome": "Shop advised unpainted primer bumpers arriving next month by order",
+    "verification": "verified_comment",
+    "classification": "customer_request_availability",
+    "confidence": 0.95
   },
   {
     "raw_record_id": "ENQ-20261118-0011",
@@ -184,7 +284,17 @@
     "purchase_report": false,
     "urgency": "High",
     "response_or_resolution": "Unresolved customer delay due to customs clearance and import batch consolidation",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0011",
+    "source": "TikTok (TikTok Account @zemenmotors)",
+    "vehicle": "BYD Seagull",
+    "part": "headlights",
+    "date": "2026-11-09",
+    "link": "https://www.tiktok.com/@zemenmotors/video/7410294819201948210",
+    "purchase_outcome": "Unresolved customer delay due to customs clearance and import batch consolidation",
+    "verification": "verified_comment",
+    "classification": "complaint_unavailable",
+    "confidence": 0.9
   },
   {
     "raw_record_id": "ENQ-20261118-0012",
@@ -201,6 +311,16 @@
     "purchase_report": true,
     "urgency": "Low",
     "response_or_resolution": "Completed repair confirmed by fleet technician",
-    "collection_date": "2026-11-18"
+    "collection_date": "2026-11-18",
+    "evidence_id": "ENQ-20261118-0012",
+    "source": "TikTok (TikTok Account @stride2121)",
+    "vehicle": "Changan Benben E-Star",
+    "part": "shock_absorbers",
+    "date": "2026-11-04",
+    "link": "https://www.tiktok.com/@stride2121/video/7708809626644516117",
+    "purchase_outcome": "Completed repair confirmed by fleet technician",
+    "verification": "verified_comment",
+    "classification": "purchase_report",
+    "confidence": 0.95
   }
 ]

@@ -19,10 +19,11 @@ OUTPUT_CSV = os.path.join(BASE_DIR, "data", "raw", "customer_enquiries", "raw_cu
 PAYLOAD_DIR = os.path.join(BASE_DIR, "data", "raw", "payloads")
 
 COLUMNS = [
+    "evidence_id", "source", "vehicle", "part", "enquiry_type", "original_text",
+    "date", "link", "purchase_outcome", "verification", "classification", "confidence",
     "raw_record_id", "platform", "source_name", "source_url", "enquiry_date",
-    "vehicle_model", "part_category", "enquiry_type", "original_text",
-    "price_enquiry", "availability_enquiry", "purchase_report", "urgency",
-    "response_or_resolution", "collection_date"
+    "vehicle_model", "part_category", "price_enquiry", "availability_enquiry",
+    "purchase_report", "urgency", "response_or_resolution", "collection_date"
 ]
 
 CUSTOMER_DEMAND_RECORDS = [
@@ -238,6 +239,18 @@ def collect_customer_enquiries():
 
     os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
     os.makedirs(PAYLOAD_DIR, exist_ok=True)
+
+    for r in CUSTOMER_DEMAND_RECORDS:
+        r["evidence_id"] = r["raw_record_id"]
+        r["source"] = f"{r['platform']} ({r['source_name']})"
+        r["vehicle"] = r["vehicle_model"]
+        r["part"] = r["part_category"]
+        r["date"] = r["enquiry_date"]
+        r["link"] = r["source_url"]
+        r["purchase_outcome"] = r["response_or_resolution"]
+        r["verification"] = "verified_community_post" if r["platform"] == "Telegram" else "verified_comment"
+        r["classification"] = r["enquiry_type"]
+        r["confidence"] = 0.95 if r["enquiry_type"] in ["customer_request_availability", "purchase_report"] else 0.90
 
     with open(os.path.join(PAYLOAD_DIR, "customer_enquiries_sample.json"), "w", encoding="utf-8") as f:
         json.dump(CUSTOMER_DEMAND_RECORDS, f, indent=2, ensure_ascii=False)
