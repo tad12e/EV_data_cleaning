@@ -1,7 +1,0 @@
-part_id,part_name,category,criticality,typical_wear_km,failure_frequency
-P-01,Front Suspension Strut,Chassis & Suspension,High,35000,Very High
-P-02,On-Board Charger (OBC),High Voltage Electronics,Critical,60000,High (Grid surge)
-P-03,Electric AC Compressor,Thermal Management,High,75000,Moderate
-P-04,Regenerative Friction Brake Pads,Braking System,High,50000,Moderate
-P-05,Charging Port Assembly (GB/T),Electronics & Inlets,High,80000,Moderate (Pin wear)
-P-06,Traction Battery Replacement Module,Energy Storage,Critical,160000,Low

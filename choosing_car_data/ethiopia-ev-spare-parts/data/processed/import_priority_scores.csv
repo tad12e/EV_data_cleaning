@@ -1,6 +1,0 @@
-priority_rank,part_name,target_vehicle,demand_score,scarcity_score,failure_rate_score,customs_duty_rate,final_import_priority_index,action_recommendation
-1,Front Suspension Strut (Reinforced),BYD Seagull,98.0,85.0,95.0,15%,93.5,Bulk air/sea import immediate priority
-2,3.3kW / 6.6kW On-Board Charger (OBC),Changan Benben & BYD,92.0,95.0,90.0,15%,92.4,Establish dedicated component repair line & inventory
-3,Electric High-Voltage AC Compressor,BYD Yuan Up / Seagull,84.0,80.0,75.0,15%,80.2,Scheduled sea container procurement
-4,GB/T to CCS2 Fast Charge Adapter & Cable,Universal Chinese Imports,88.0,65.0,60.0,15%,73.1,Retail stock across Addis EV charging hubs
-5,High-Voltage Auxiliary DC-DC Converter,Volkswagen ID.4 / ID.6,65.0,96.0,70.0,15%,72.8,Special order buffer stock for private garages

@@ -17,9 +17,8 @@
   * All 8 Criteria CSV Datasets (`master_vehicle_ranking.csv`, `table1_import_evidence.csv` through `table7_market_presence.csv`).
   * Scraper Scripts (`telegram_scraper.py`, `web_marketplace_scraper.py`).
   * `requirements.txt` & `README.md`.
-  * **`ethiopia-ev-spare-parts/`**: Full 62-file production pipeline scaffold (`config/`, `data/raw/`, `data/processed/`, `data/reference/`, `notebooks/`, `src/`, `reports/`, `docs/`).
 * **`choosing_spare_parts/`**:
-  * `.gitkeep` and modular roadmap `README.md`.
+  * Production spare parts pipeline (`config/`, `data/raw/`, `data/processed/`, `data/reference/`, `notebooks/`, `src/`, `reports/`, `docs/`).
 
 ### B. On Google Drive (`/content/drive/MyDrive/Ethiopia_EV_Intelligence/`)
 * Exact mirrored clone of the repository.

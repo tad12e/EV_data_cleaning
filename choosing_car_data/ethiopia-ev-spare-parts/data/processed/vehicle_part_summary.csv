@@ -1,6 +1,0 @@
-vehicle_model,part_name,monthly_demand_est,local_stock_supply_est,supply_gap_ratio,urgency
-BYD Seagull,Front Suspension Strut,450,180,0.6,Very High
-Changan Benben E-Star,On-Board Charger (OBC),120,35,0.71,Critical
-BYD Yuan Up,Electric AC Compressor,85,40,0.53,High
-Toyota bZ4X,Regenerative Friction Brake Pads,60,30,0.5,Moderate
-Volkswagen ID.6,High-Voltage DC-DC Converter,40,8,0.8,Critical
